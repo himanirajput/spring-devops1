@@ -6,24 +6,23 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-@Entity                      // It implies that this is a persistent class
-@Table(name="newproducts")   // It is the name of the table to which we are gonna map it
+@Entity // It implies that this is a persistent class
+@Table(name = "newproducts") // It is the name of the table to which we are gonna map it
 public class Product {
-	
-	
-	@Id                                     // We don't have to define id it will be auto generated
-	
-	@GeneratedValue(strategy=GenerationType.AUTO)
+
+	@Id // We don't have to define id it will be auto generated
+
+	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Integer productId;
-	
+
 	private String productName;
-	
+
 	private Double price;
-	
+
 	private String description;
-	
+
 	public Product() {
-		// TODO Auto-generated constructor stub
+
 	}
 
 	public Product(String productName, Double price, String description) {
