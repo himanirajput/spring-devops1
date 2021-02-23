@@ -137,3 +137,12 @@ Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No q
 2021-02-23 13:14:04.981 [INFO ] [main] c.m.s.SpringDevopsApplicationTests - Started SpringDevopsApplicationTests in 5.737 seconds (JVM running for 8.404)
 2021-02-23 13:14:05.208 [INFO ] [main] c.m.s.w.ProductController - Processing products request
 2021-02-23 13:14:05.487 [INFO ] [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-23 21:15:59.146 [INFO ] [main] c.m.s.SpringDevopsApplicationTests - Starting SpringDevopsApplicationTests using Java 1.8.0_201 on LAPTOP-N8VDAKUR with PID 7472 (started by HimaniRajput in C:\Users\HimaniRajput\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\spring-devops1)
+2021-02-23 21:15:59.153 [INFO ] [main] c.m.s.SpringDevopsApplicationTests - No active profile set, falling back to default profiles: default
+2021-02-23 21:16:02.442 [INFO ] [main] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-23 21:16:03.602 [INFO ] [main] o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2021-02-23 21:16:03.602 [INFO ] [main] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2021-02-23 21:16:03.604 [INFO ] [main] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2021-02-23 21:16:03.666 [INFO ] [main] c.m.s.SpringDevopsApplicationTests - Started SpringDevopsApplicationTests in 5.701 seconds (JVM running for 8.354)
+2021-02-23 21:16:03.927 [INFO ] [main] c.m.s.w.ProductController - Processing products request
+2021-02-23 21:16:04.211 [INFO ] [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
